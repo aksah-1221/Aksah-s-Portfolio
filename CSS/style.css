@@ -11,3 +11,23 @@ body {
 h1 {
     color: purple;   /* test colour, replaced in Lab 16 */
 }
+body {
+    background-color: #f4f6f9;
+    color: #22313f;                 /* hex */
+}
+
+h1 {
+    color: #1f5fa8;                 /* hex */
+}
+
+h2 {
+    color: rgb(31, 95, 168);        /* the same blue in RGB */
+}
+
+h3 {
+    color: hsl(212, 69%, 39%);      /* the same blue in HSL */
+}
+
+mark {
+    background-color: rgba(245, 166, 35, 0.35);   /* see-through orange */
+}
