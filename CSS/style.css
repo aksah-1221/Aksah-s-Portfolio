@@ -1,40 +1,31 @@
-/* ==========================================
-   Portfolio stylesheet — Aksah Atlaw
-   ========================================== */
 
-/* ---------- Base ---------- */
+html {
+    font-size: 16px;
+}
+
 body {
-    background-color: #f4f6f9;   
-    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    font-family: 'Montserrat', sans-serif;
+    color: #22313f;
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 h1 {
     font-size: 2.5rem;
-    color: purple;  
-}
-body {
-    background-color: #f4f6f9;
-    color: #22313f;               
+    color: #1f5fa8;
 }
 
-h1 {
-    color: #1f5fa8;                 
-}
 
 h2 {
     font-size: 1.8rem;
-    color: rgb(31, 95, 168);        /* the same blue in RGB */
+    color: rgb(31, 95, 168);
 }
 
 h3 {
     font-size: 1.2rem;
-    color: hsl(212, 69%, 39%);      /* the same blue in HSL */
+    color: hsl(212, 69%, 39%);
 }
-
 mark {
-    background-color: rgba(245, 166, 35, 0.35);   /* see-through orange */
+    background-color: rgba(245, 166, 35, 0.35);
 }
-html {
-    font-size: 16px;   /* 1rem = 16px everywhere */
-}
-
