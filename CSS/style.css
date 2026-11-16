@@ -4,30 +4,37 @@
 
 /* ---------- Base ---------- */
 body {
-    background-color: #f4f6f9;   /* very light grey-blue */
+    background-color: #f4f6f9;   
     font-family: Arial, sans-serif;
 }
 
 h1 {
-    color: purple;   /* test colour, replaced in Lab 16 */
+    font-size: 2.5rem;
+    color: purple;  
 }
 body {
     background-color: #f4f6f9;
-    color: #22313f;                 /* hex */
+    color: #22313f;               
 }
 
 h1 {
-    color: #1f5fa8;                 /* hex */
+    color: #1f5fa8;                 
 }
 
 h2 {
+    font-size: 1.8rem;
     color: rgb(31, 95, 168);        /* the same blue in RGB */
 }
 
 h3 {
+    font-size: 1.2rem;
     color: hsl(212, 69%, 39%);      /* the same blue in HSL */
 }
 
 mark {
     background-color: rgba(245, 166, 35, 0.35);   /* see-through orange */
 }
+html {
+    font-size: 16px;   /* 1rem = 16px everywhere */
+}
+
